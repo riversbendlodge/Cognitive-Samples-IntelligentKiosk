@@ -503,6 +503,11 @@ namespace IntelligentKioskSample.Views
 
             return new Image { Source = croppedImage, Height = 200 };
         }
+
+        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 
     internal class VideoFrameData

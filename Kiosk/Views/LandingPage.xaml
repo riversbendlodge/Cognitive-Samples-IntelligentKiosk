@@ -24,15 +24,21 @@
 
         <ScrollViewer Grid.Row="1" EntranceNavigationTransitionInfo.IsTargetElement="True">
             <StackPanel Margin="12">
-                <TextBlock Style="{ThemeResource BodyTextBlockStyle}">Welcome to the Intelligent Kiosk Sample! Here you will find several demos showcasing 
-                    workflows and experiences built on top of the Microsoft Cognitive Services. 
+                <TextBlock Style="{ThemeResource BodyTextBlockStyle}" Height="106" Width="575" SelectionChanged="TextBlock_SelectionChanged" FontSize="36" TextAlignment="Center">
+                    <Run/>
+                    <LineBreak/>
+                    <Run Text="Welcome to the Intelligent Kiosk! "/>
                 </TextBlock>
 
-                <TextBlock Style="{ThemeResource BodyTextBlockStyle}" Margin="0,12">The kiosk is an example of an intelligent application, one that can understand human faces and predict their age, gender and emotion. It can do so from live
-                    images from a web cam, Bing Images or local photos. It also allows you to very quickly create and train a model to perform face identification against any pre-determined set of faces.
+                <TextBlock Style="{ThemeResource BodyTextBlockStyle}" Margin="0,12" Width="501" Height="212">
+                    <Run Text="Here you will find several demos showcasing artificial intelligence built on top of the Microsoft Cloud Cognitive Services. The kiosk is an example of an intelligent application, one that can understand human faces and predict their age, gender and emotion. It can do so from live images from a web cam, or local photos. It also allows you to very quickly create and train a model to perform face identification against any pre-determined set of faces."/>
+                    <LineBreak/>
+                    <Run/>
+                    <LineBreak/>
+                    <Run Text="Start by selecting the demos menu from the drop-down in upper left of this screen."/>
                 </TextBlock>
 
-                <Image Stretch="Uniform" Source="ms-appx:///Assets/oxford-face.png" MaxWidth="350" HorizontalAlignment="Center" Margin="0,12,0,0" />
+                <Image Source="ms-appx:///Assets/arrow_logo.jpg" MaxWidth="350" HorizontalAlignment="Center" Margin="0,12,0,0" />
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                     <TextBlock VerticalAlignment="Center">For more information visit</TextBlock>
                     <HyperlinkButton Margin="4,0,0,0" Content="Microsoft Cognitive Services" NavigateUri="https://www.microsoft.com/cognitive-services"/>

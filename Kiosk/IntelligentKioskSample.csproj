@@ -16,13 +16,17 @@
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <SccProjectName>SAK</SccProjectName>
-    <SccLocalPath>SAK</SccLocalPath>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccProvider>SAK</SccProvider>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <AppxBundle>Always</AppxBundle>
-    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
+    <AppxBundlePlatforms>x86|x64</AppxBundlePlatforms>
     <PackageCertificateThumbprint>AFA97E8E34493A24325844C55BC66D56D9F3595C</PackageCertificateThumbprint>
     <PackageCertificateKeyFile>IntelligentKioskSample_TemporaryKey.pfx</PackageCertificateKeyFile>
     <ApplicationInsightsResourceId />
@@ -251,6 +255,7 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\arrow_logo.jpg" />
     <Content Include="Assets\BingNewsAnalytics.png" />
     <Content Include="Assets\BingVisualSearch.jpg" />
     <Content Include="Assets\camera.png" />
@@ -267,6 +272,7 @@
     <Content Include="Assets\RealTime.PNG" />
     <Content Include="Assets\RealtimeDriverMonitoring.jpg" />
     <Content Include="Assets\RealTimeFromVideo.PNG" />
+    <Content Include="Assets\samcar_sensors_arrow_electronics.gif" />
     <Content Include="Assets\smalltile-sdk.png" />
     <Content Include="Assets\splash-sdk.png" />
     <Content Include="Assets\StoreLogo.png" />

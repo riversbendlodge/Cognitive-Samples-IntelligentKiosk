@@ -8,7 +8,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     SizeChanged="OnPageSizeChanged"
     mc:Ignorable="d"
-    x:Name="page">
+    x:Name="page" Background="Black">
 
     <Page.Resources>
         <ctl:BooleanToVisibilityConverter x:Key="bolleanToVisibilityConverter"/>
@@ -119,6 +119,7 @@ The Distractions chart indicates when certain activities are detected. It uses t
                     <ctl:VerticalBarTimelineControl x:Name="distractionChart" Header="Distractions" Grid.Row="4" Margin="0,10,0,0" BarType="Centered" />
 
                     <TextBlock Grid.Row="5" Text="Click on the chart values to see the associated video frames" HorizontalAlignment="Right" FontStyle="Italic" Opacity="0.9" Style="{StaticResource CaptionTextBlockStyle}"/>
+                    <Image Margin="142,46,217,-433" Grid.Row="5" Source="ms-appx:///Assets/samcar_sensors_arrow_electronics.gif" Stretch="Fill"/>
                 </Grid>
             </Grid>
         </Grid>
